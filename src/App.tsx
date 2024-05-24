@@ -7,6 +7,7 @@ import Home from './components/pages/Home'
 
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
@@ -14,9 +15,9 @@ function App() {
       <BrowserRouter>
       <Routes>
        <Route path="/" element={<Home />} />
-        <Route path="/UserForm" element={<UserForm />} />
-        <Route path="/UserList" element={<UserList />} />
-        <Route path="/UserDetails" element={<UserDetails />} />
+        <Route path="/userForm" element={<UserForm />} />
+        <Route path="/userList" element={<UserList />} />
+        <Route path="/userDetails" element={<UserDetails />} />
       </Routes>
       </BrowserRouter>
     </div>
