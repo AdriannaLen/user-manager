@@ -1,0 +1,27 @@
+
+
+ul {
+    justify-content: center;
+ 
+li {
+ 
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+
+    a {
+
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+
+        &:hover {
+
+        background-color: pink;
+
+       }
+       
+    }
+}
+
+}

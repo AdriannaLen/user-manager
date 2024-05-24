@@ -1,4 +1,5 @@
 import Navigation from "../Navigation/Navigation";
+import './UserList.scss';
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
