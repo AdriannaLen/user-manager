@@ -1,13 +1,14 @@
 import Navigation from '../Navigation/Navigation';
+import './Home.scss';
 
 const Home = () => {
 
     return (
-        <div>
+        <div className="home-body">
             
       <Navigation />
-            <h1>Home</h1>
-        
+           
+
         </div>
     );
 }
